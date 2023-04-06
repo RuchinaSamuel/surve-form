@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: auto;
+    background-color:  white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+header{
+    top: 0;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+   height: 10%;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+  
+
+    
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding: 2% 10% ;
+   
+  
+    
+}
+#navbar ul{
+position: relative;
+display: flex;
+margin-left: 50%;
+}
+
+.link li{
+    float: left;
+    list-style: none;
+    
+    
+}
+
+.link a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 1.rem;
+    margin-left: 10vh;
+       
+}
+
+.container{
+    min-height: 100%;
+  
+    
+      
+  }
+  
+  .main{
+      overflow: auto;
+      padding-bottom: 100px;
+  }
+
+  .h1a{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    display: flex;
+  }
+
+  form input{
+    width: 40vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    height: 30px;
+    margin-top: -40px;
+    padding: 5px;
+  }
+
+ #input1{
+     width: 20vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid yellow;
+    height: 20px;
+    background-color: yellow;
+    margin-top: 5px;
+  text-align: center;
+  }
+
+.hd1{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+  .hd1a img{
+    height: 100px;
+    width: 50px;
+  }
+
+.hd1a{
+    position: relative;
+    top: -70px;
+    margin-left: 20vh;
+}
+
+.hd2{
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.hd3{
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.bnt1{
+ margin-top: 5vh;
+ 
+ border: 2px solid black;
+ width: 50vh;
+ height: 40vh;
+ margin-left: 40px;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+   
+}
+
+#input2{
+    
+    width: 20vh;;
+   border: 2px solid yellow;
+   height: 20px;
+   background-color: yellow;
+   margin-top: 30vh;
+ text-align: center;
+ 
+ }
+
+ .form {
+    margin-left: 0;
+   
+  }
+
+  .bnt1 .btnhd h4{
+    position: absolute;
+    background-color: grey;
+    width: 50vh;
+    height: 40px;
+    
+  }
+
+  .bnt1  h5{
+    position: absolute;
+    margin-top: 40px;
+ 
+  }
+
+  .bnt1 p{
+    position: absolute;
+    margin-top: 60px;
+  }
